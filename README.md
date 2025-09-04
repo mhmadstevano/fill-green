@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="779" height="210" alt="image" src="https://github.com/user-attachments/assets/c35274e7-cf30-4462-b0ac-6ac08ead329a" />
+</p>
+
 # Git Commit Generator
 
 A small Python script that automatically generates commits for a given date range.  
