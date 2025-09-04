@@ -42,6 +42,19 @@ rmdir /s /q .git
 Remove-Item -Recurse -Force .git
 ```
 
+### ✨ Setup your git
+
+To initialize your own repository and link it with GitHub:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/<username>/<repo>.git
+git push -u origin main
+```
+
 ### ✨ Install dependency:
 
 ```bash
